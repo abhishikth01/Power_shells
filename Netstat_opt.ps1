@@ -1,0 +1,1 @@
+netstat -b 2 | Out-String -Stream | Select-String SERVERNAME
